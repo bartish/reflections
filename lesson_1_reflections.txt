@@ -1,0 +1,35 @@
+How did viewing a diff between two versions of a file help you see the bug that
+was introduced?
+
+    Since the old version of the file was working, there is a good chance the problem lies in a line of code that has been added or changed.  Only viewing the differences between files limits the scope so you can find the bug faster.
+
+How could having easy access to the entire history of a file make you a better
+programmer in the long term?
+
+	You can easily revert back to a stable version of your code if something goes wrong in a release.  Also, it makes it very easy to find bugs in your code if you can compare to a working copy.
+
+What do you think are the pros and cons of manually choosing when to create a
+commit, like you do in Git, vs having versions automatically saved, like Google
+docs does?
+    
+    The biggest pro is without question the ability to pick your own logical points when to create commits.  This means that there is a higher probablility all of your commit history comes after a logical change and rollback is much neater.
+
+    The manual involvement is the biggest con, however, because you'll need to remember and take the time to perform each commit.
+
+Why do you think some version control systems, like Git, allow saving multiple
+files in one commit, while others, like Google Docs, treat each file separately?
+
+    Git and like version control systems allow saving multiple files because there are almost certainly related files in a code project, for instance, CSS and HTML files.  Other version control systems have a scope of a single file, for instance a school paper.  
+
+How can you use the commands git log and git diff to view the history of files?
+    
+    By using the git log command, you can get the versions of the files you want to compare.  The use the git diff command to compare these 2 files.  This will show you all of the changes and additions from 1 file to the other.
+
+How might using version control make you more confident to make changes that
+could break something?
+    
+    If I have a quick and easy way to restore a file, I will be much more likely to make changes more quickly to my production application.  It is a safety net, so if something goes horribly wrong, I can easy revert back to a stable version of my code.
+
+Now that you have your workspace set up, what do you want to try using Git for?
+
+    To keep different versions of my prjoects so when I experiment with new things, it will be simple for me to revert my code if the changes do not work out.
